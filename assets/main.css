@@ -1,0 +1,119 @@
+/* (c) Orbisius.com */
+.orbisius_simple_feedback_container_full {
+    
+}
+
+.orbisius_simple_feedback_container {
+    background: none repeat scroll 0 0 transparent;
+    /*right:0;*/
+    bottom: 0px;
+    position: fixed;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.orbisius_simple_feedback_container button {
+    text-align: center;
+}
+
+.orbisius_simple_feedback_container .hide {
+    display: none;
+}
+
+.orbisius_simple_feedback_container .success {
+    color:green;
+}
+
+.orbisius_simple_feedback_container .error {
+    color:red;
+}
+
+.orbisius_simple_feedback_container .result {
+    padding:3px;
+    background: #ffff99;
+}
+
+.orbisius_simple_feedback_container .feedback_wrapper {
+    border:2px solid #999;
+    margin:1px;
+    padding:5px;
+    background: none repeat scroll 0 0 #eee;
+    display: inline-block;
+    /*width: 35%;*/
+}
+
+.orbisius_simple_feedback_container .feedback_wrapper_bottom_center {
+    height: auto;
+    /*margin: 0 auto;*/
+    /* by using this approach the call to action text box takes as much space as it needs */
+    /*float: left;*/
+    margin-left:45%;
+}
+
+.orbisius_simple_feedback_container .feedback_wrapper_bottom_left {
+    float: left;
+}
+
+.orbisius_simple_feedback_container .feedback_wrapper_bottom_right {
+    float: right;
+}
+
+.orbisius_simple_feedback_container .feedback {
+
+}
+
+.orbisius_simple_feedback_container .feedback_title {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.orbisius_simple_feedback_container .feedback_text, .orbisius_simple_feedback_container .feedback_email {
+    width: 96%;
+    padding:5px;
+}
+
+.orbisius_simple_feedback_container input[type=submit] {
+    margin: 10px auto;
+    padding:3px;
+}
+
+.orbisius_simple_feedback_container .powered_by {
+    text-align:right;
+    vertical-align:bottom;
+    font-size: 12px;
+}
+
+.orbisius_simple_feedback_container .close_button_link:hover {    
+    background: #888;
+    color:white;
+}
+
+.orbisius_simple_feedback_container .close_button_link {
+    margin:2px;
+    padding:2px;
+    float: right;
+    color: red;
+    padding-right: 2px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.orbisius_simple_feedback_container .close_button {
+    text-align:right;
+    vertical-align:top;
+    font-size: 12px;
+    padding-left:3px;
+    padding-right:3px;
+    border:1px solid #006666;
+}
+
+.orbisius_simple_feedback_container .loading {
+    padding:3px;
+    background: #ffff99;
+}
+
+.orbisius_simple_feedback_container .need_input {
+    padding:3px;
+    background: #ffff99;
+    border:1px dashed #ff3333;
+}
